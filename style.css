@@ -464,3 +464,237 @@ top: 16.5px;
 position: absolute;
 background-color: black;    
 }
+
+
+.sun{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(242, 196, 15);
+    left: 300px;
+    top: 100px;
+    
+}
+.sun::after{
+    content: " ";
+    position:absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(242, 196, 15);
+    left: 80px;
+    top: 30%;
+}
+
+.sun::before{
+    content: " ";
+    position:absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(238, 140, 12);
+    left: 80px;
+    top: 30%;
+}
+
+.rayo1{
+    position: absolute;
+    left:350px;
+    top:8%;
+    width: 7px;
+    height: 40px;
+    background-color: #e4ce29;
+}
+
+.rayo2{
+    position: absolute;
+    left:290px;
+    top:12%;
+    width: 8px;
+    height: 30px;
+    background-color: #e4ce29;
+    transform: skew(45deg);
+}
+.rayo3{
+    position: absolute;
+    left:405px;
+    top:21%;
+    width: 40px;
+    height: 6px;
+    background-color: #e4ce29;
+}
+
+.rayo4{
+    position: absolute;
+    left:400px;
+    top:12%;
+    width: 8px;
+    height: 30px;
+    background-color: #e4ce29;
+    transform: skew(135deg);
+}
+
+.rayo5{
+    position: absolute;
+    left:255px;
+    top:21%;
+    width: 40px;
+    height: 6px;
+    background-color: #e4ce29;
+}
+
+.rayo6{
+    position: absolute;
+    left:285px;
+    top:26%;
+    width: 9px;
+    height: 28px;
+    background-color: #e4ce29;
+    transform: skew(-45deg);
+}
+
+.montaña{
+    position: absolute;
+    top:50%;
+    left: 520px;
+    border-right: 80px solid transparent;
+    border-bottom: 150px solid #b67b71;
+    border-left: 80px solid transparent;
+}
+.sombra{
+    position: absolute;
+    top:50%;
+    left: 613px;
+    border-right: 50px solid transparent;
+    border-bottom: 150px solid #8266667e;
+    border-left: 0px solid transparent;
+    transform: skew(12deg);
+}
+.montaña2{
+    position: absolute;
+    top:57.5%;
+    left: 420px;
+    border-right: 80px solid transparent;
+    border-bottom: 100px solid #e6a76c;;
+    border-left: 80px solid transparent;
+}
+.sombra2{
+    position: absolute;
+    top:57.5%;
+    left: 520px;
+    border-right: 40px solid transparent;
+    border-bottom: 100px solid #8266667e;
+    border-left: 0px solid transparent;
+    transform: skew(24deg);
+}
+.montaña3{
+    position: absolute;
+    top:57.5%;
+    left: 620px;
+    border-top: 0px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 80px solid #e6a76c;
+    border-left: 80px solid transparent;
+    z-index:-1;
+}
+.sombra3{
+    position: absolute;
+    top:57.5%;
+    left: 698px;
+    border-top: 0px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #8266667e;
+    border-left: 0px solid transparent;
+    z-index: 4;
+    transform-origin: top right;
+    transform: skew(24deg);
+}
+.nieve{
+    position: absolute;
+    left: 584px;
+    top: 358px;
+    border-right: 15px solid transparent;
+    border-bottom: 35px solid #faebaf;
+    border-left: 16px solid transparent;
+}
+.nieve_s{
+    position: absolute;
+    left:598px ;
+    top: 49%;
+   
+    border-right: 11px solid transparent;
+    border-bottom: 35px solid #fcfcfc;
+    border-left: 0px solid transparent;
+    transform-origin: top right;
+    transform: skew(9deg);
+}
+
+.nube{
+    position:absolute;
+    top: 55px;
+    left: 315px;
+    height: 45px;
+    width: 100px;
+    background: #fcfcfc; 
+    border-radius: 50px;
+    margin: 120px auto 20px;
+}
+.nube::after, .nube::before{
+    content: " ";
+    position:absolute; 
+    background: #fcfcfc;   
+}
+.nube::after{
+   
+    position:absolute;
+    top: -25px;
+    left: 45px;
+    height: 45px;
+    width: 40px;
+    border-radius: 100px;   
+}
+.nube::before{ 
+    position:absolute;
+    top: -10px;
+    left: 15px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px; 
+}
+
+
+.nube1{
+    position:absolute;
+    top: 278px;
+    left: 510px;
+    height: 25px;
+    width: 80px;
+    background: #fcfcfc; 
+    border-radius: 50px;
+    margin: 120px auto 20px;
+    z-index:-1;
+
+}
+.nube1::after, .nube1::before{
+    content: " ";
+    position:absolute; 
+    background: #fcfcfc;   
+}
+.nube1::after{
+   
+    position:absolute;
+    top: -25px;
+    left: 45px;
+    height: 45px;
+    width: 40px;
+    border-radius: 100px;   
+}
+.nube1::before{ 
+    position:absolute;
+    top: -10px;
+    left: 15px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100px; 
+}
